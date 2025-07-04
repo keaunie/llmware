@@ -1,0 +1,29 @@
+.chat-container {
+    width: 300px;
+    height: 400px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(150, 101, 101);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(193, 189, 189, 0.2);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.chatbox-header {
+    background-color: rgba(174, 174, 147, 0.2);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.chatbox-container {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    text-align: 10px;
+    background-color: rgba(174, 174, 147, 0.1);
+}
